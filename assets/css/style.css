@@ -1,0 +1,64 @@
+/* Responsive Portfolio */
+
+
+/* Element Styling */
+
+	p {
+			font-size: 120%;	
+		}
+
+	textarea {
+		height: 200px;
+    	resize: none;
+
+		}
+
+/* Class Styling */
+
+		.headshot {
+			margin:0px 10px 10px 0px;
+		}
+
+		.background-img {
+			background-image: url("../images/topography.png");
+		}
+
+		.largerfont {
+			font-size: 140%;
+		}
+
+		.portfolio {
+			width: 45%;
+			margin: 10px 5% 10px 0;
+			position:relative;
+		}
+
+
+		.portfolioImage {
+
+			width: 100%;
+			float: left;
+			z-index: -1;
+
+		}
+
+		.portfolioBanner {
+			background-color:black;
+			position: absolute;
+			bottom: 5px;
+			width: 100%;
+			text-align: center;
+			color: lightgrey;
+			line-height: 2
+
+		}
+
+
+/* ID Styling */
+
+		#mainRule {
+		border-style: solid;
+		border-color:#cccccc;
+		border-width: 0px 0px 3px 0px;
+		margin-bottom: 20px;
+		}
